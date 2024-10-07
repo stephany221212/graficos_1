@@ -42,21 +42,4 @@ const graficoBarra = new Chart(ctxBarra,{
             borderWidth:1
         }]
     },
-    options:{
-        responsive:true;
-        plugins:{
-            legend:{
-                position:'top',
-            },
-            title:{
-                display:true,
-                text:''
-            }
-        },
-        scales:{
-            y:{
-                beginAtZero: true
-            }
-        }
-    }
-});
+})
