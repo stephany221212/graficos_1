@@ -90,6 +90,67 @@ const graficoPizza = new Chart(ctxPizza,{
     }
 });
 
+const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza = new Chart(ctxPizza,{
+    type:'pie',
+    data:{
+        labels: ['Sempre','Muitas vezes','As vezes','Raramente','Nunca'],
+        datasets:[{
+            label:'Com que frequência você toma remédio para dormir?',
+            data:[38,50,12],
+            backgroundColor: [
+                '#F05454','#30475E','#DDDDDD','#222831'
+                
+ ],
+ borderColor: '#DDDDDD'
+ borderWidth:1
+        }]
+    },
+    options:{
+        responsive:true,
+        plugins:{
+            legend:{
+                position: 'bottom',
+            },
+            title:{
+                display:true,
+                text:'Participação nas Redes Sociais'
+            }
+        }
+    }
+});
+
+const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza = new Chart(ctxPizza,{
+    type:'pie',
+    data:{
+        labels: ['Menos de 3 horas',' 4 horas','5 horas',' 6 horas','7 horas','8 horas','9 horas','Mais de 9 horas'],
+        datasets:[{
+            label:'Quantas horas de sono você tem em 24 horas? (aproximadamente)',
+            data:[38,50,12],
+            backgroundColor: [
+                '#F05454','#30475E','#DDDDDD','#222831'
+                
+ ],
+ borderColor: '#DDDDDD'
+ borderWidth:1
+        }]
+    },
+    options:{
+        responsive:true,
+        plugins:{
+            legend:{
+                position: 'bottom',
+            },
+            title:{
+                display:true,
+                text:'Participação nas Redes Sociais'
+            }
+        }
+    }
+});
+
+
 //Gráfico de Barras
 const ctxBarra = document.getElementById('graficoBarra').getContext('2d');
 const graficoBarra = new Chart(ctxBarra,{
