@@ -1,6 +1,6 @@
 // Gráfico de Pizza
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza,{
+const ctxPizza1 = document.getElementById('graficoPizza1').getContext('2d');
+const graficoPizza1 = new Chart(ctxPizza1,{
     type:'pie',
     data:{
         labels: ['Ruim','Boa','Muito boa'],
@@ -29,8 +29,8 @@ const graficoPizza = new Chart(ctxPizza,{
     }
 });
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza,{
+const ctxPizza2 = document.getElementById('graficoPizza2').getContext('2d');
+const graficoPizza2 = new Chart(ctxPizza2,{
     type:'pie',
     data:{
         labels: ['Menos que 3 horas','Entre 3 e 5 horas','Mais que 5 horas'],
@@ -59,8 +59,8 @@ const graficoPizza = new Chart(ctxPizza,{
     }
 });
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza,{
+const ctxPizza3 = document.getElementById('graficoPizza3').getContext('2d');
+const graficoPizza3 = new Chart(ctxPizza3,{
     type:'pie',
     data:{
         labels: ['Menos de um mes','1 a 2meses','3 a 6meses','7 a 12 meses', '
@@ -90,8 +90,8 @@ const graficoPizza = new Chart(ctxPizza,{
     }
 });
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza,{
+const ctxPizza4 = document.getElementById('graficoPizza4').getContext('2d');
+const graficoPizza4 = new Chart(ctxPizza4,{
     type:'pie',
     data:{
         labels: ['Sempre','Muitas vezes','As vezes','Raramente','Nunca'],
@@ -120,8 +120,8 @@ const graficoPizza = new Chart(ctxPizza,{
     }
 });
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza,{
+const ctxPizza5 = document.getElementById('graficoPizza5').getContext('2d');
+const graficoPizza5 = new Chart(ctxPizza5,{
     type:'pie',
     data:{
         labels: ['Menos de 3 horas',' 4 horas','5 horas',' 6 horas','7 horas','8 horas','9 horas','Mais de 9 horas'],
