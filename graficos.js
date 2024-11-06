@@ -23,7 +23,7 @@ const graficoPizza1 = new Chart(ctxPizza1,{
             },
             title:{
                 display:true,
-                text:'Participação nas Redes Sociais'
+                text:'Sono'
             }
         }
     }
@@ -53,7 +53,7 @@ const graficoPizza2 = new Chart(ctxPizza2,{
             },
             title:{
                 display:true,
-                text:'Participação nas Redes Sociais'
+                text:'sono'
             }
         }
     }
@@ -84,7 +84,7 @@ const graficoPizza3 = new Chart(ctxPizza3,{
             },
             title:{
                 display:true,
-                text:'Participação nas Redes Sociais'
+                text:'sono'
             }
         }
     }
@@ -114,7 +114,7 @@ const graficoPizza4 = new Chart(ctxPizza4,{
             },
             title:{
                 display:true,
-                text:'Participação nas Redes Sociais'
+                text:'sono'
             }
         }
     }
@@ -144,7 +144,7 @@ const graficoPizza5 = new Chart(ctxPizza5,{
             },
             title:{
                 display:true,
-                text:'Participação nas Redes Sociais'
+                text:'sono'
             }
         }
     }
